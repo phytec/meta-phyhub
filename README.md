@@ -1,8 +1,8 @@
-# meta-liot
+# meta-phyhub
 
-Yocto layer for the L.IoT platform.
+Yocto layer for the phyHUB platform.
 
-The layer contains all the tools to connect your Yocto device to the L.IoT
+The layer contains all the tools to connect your Yocto device to the phyHUB
 platform.
 
 ## Dependencies
@@ -16,7 +16,6 @@ platform.
 | Branch          | Yocto Release |
 |-----------------|---------------|
 | scarthgap       | 5.0 (scarthgap) |
-| scarthgap-next  | 5.0 (scarthgap, development) |
 | master          | next release (development) |
 
 ## Usage
@@ -24,7 +23,7 @@ platform.
 Add this layer to your `bblayers.conf`:
 
 ```
-BBLAYERS += "/path/to/meta-liot"
+BBLAYERS += "/path/to/meta-phyhub"
 ```
 
 ## License
