@@ -1,6 +1,6 @@
 require recipes-images/images/phytec-headless-image.bb
 
-PARTUP_LAYOUT_CONFIG:update = "layout-liot.yaml"
+PARTUP_LAYOUT_CONFIG:update = "layout-phyhub.yaml"
 
 IMAGE_INSTALL:append = " \
     packagegroup-snapd \
